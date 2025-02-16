@@ -11,7 +11,7 @@ class Array:
         """Removes and returns the element at the given index.
         Returns 'Invalid index' if the index is out of bounds."""
         if 0 <= index < len(self.array):
-            return self.array.pop(index)  # Fixed typo: 'poop' -> 'pop'
+            return self.array.pop(index)  
         return "Invalid index"
 
 
